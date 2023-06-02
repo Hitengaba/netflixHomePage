@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav img {
+            height: 30px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .hero {
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .show-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .show img,
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="netflix_logo.png" alt="Netflix Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to Netflix</h1>
+            <p>Watch unlimited TV shows and movies.</p>
+            <button>Sign In</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Popular TV Shows</h2>
+            <div class="show-grid">
+                <!-- Placeholder content for TV shows -->
+                <div class="show">
+                    <img src="tv_show1.jpg" alt="TV Show 1">
+                </div>
+                <div class="show">
+                    <img src="tv_show2.jpg" alt="TV Show 2">
+                </div>
+                <div class="show">
+                    <img src="tv_show3.jpg" alt="TV Show 3">
+                </div>
+                <div class="show">
+                    <img src="tv_show4.jpg" alt="TV Show 4">
+                </
